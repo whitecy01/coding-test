@@ -454,8 +454,7 @@ int main(){
 - list의 STL로 풀어본 것
 - list에서 iterator를 이용해 insert를 하더라도 insert한 위치에 있는 게 아니라 그대로 위치하게 된다
     - insert는 iterator의 왼쪽부분에 함
-- list에서 iterator를 이용해 erase를 사용할 경우 삭제가 된 후 iter는 없는 값을 가리키게 된다 그래서 다시 초기화를 진행해주어야함
-    - 즉 원래 함수에서는 지우면 오른쪽으로 이동함
+- list에서 iterator를 이용해 erase를 사용할 경우 삭제가 된 후 뒤에 있는 원소로 이동
     - end일 때는 마지막 dummy node를 가리키기 때문에 지우면 안됨
 
 ```cpp
