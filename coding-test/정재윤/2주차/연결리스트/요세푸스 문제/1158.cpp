@@ -30,30 +30,6 @@ int main(){
         ls.pop();
     }
     
-
-    // for (int i = 0; i < n; i++)
-    // {
-
-    //     // ls.push(ls.front());
-    //     // ls.pop();
-    //     queue<int> temp = ls;
-    //     cout << "queue start\n";
-    //     for (int s = temp.size(); s > 0; s--)
-    //     {
-    //         cout << temp.front() << " ";
-    //         temp.pop();
-    //     }
-    //     cout << "fin\n";
-        
-
-    //     for (auto a : ans)
-    //     {
-    //         cout << a << " ";
-    //     }
-    //     cout << "\n";
-    // }
-
-    
     for (int i = 0; i < ans.size(); i++)
     {
         cout << ans[i];
