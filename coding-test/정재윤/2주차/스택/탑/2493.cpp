@@ -8,7 +8,7 @@ stack<pair<int,int>> sta;
 
 
 int main(){
-    cin.tie(0);
+    cin.tie(0); // 이거 문제
     ios_base::sync_with_stdio(false);
     int n;
     cin >> n;
@@ -17,8 +17,6 @@ int main(){
     {
         int temp;
         cin >> temp;
-
-        
             while (!sta.empty())
             {
                 auto top = sta.top();
