@@ -36,7 +36,7 @@ int main(){
         else if(cmd == 'B'){
             if(cursor != cd.begin()){
                 --cursor;
-                cursor = cd.erase(cursor); //이게 뭔데..?
+                cursor = cd.erase(cursor); //erase 할 경우 반환 값을  next 주소로 반환함 그렇기 때문에 이를 다시  iterator로 지정해 줘야함.
             }
         
         }else if(cmd == 'P'){
