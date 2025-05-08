@@ -8,7 +8,7 @@ void func(int a, int b, int n){
         return;
     }
     func(a, 6-a-b, n - 1);
-    cout << a << " " << b << "\n";
+    cout << "here : " << a << " " << b << "\n";
     func(6-a-b, b, n - 1);
 }
 
